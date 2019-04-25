@@ -1,0 +1,10 @@
+galaxy_info:
+  author: Moez SELMI
+  description: Install and uninstall nginx
+  company: ITEC
+  license: MIT
+  min_ansible_version: 1.9
+  platforms:
+    - name: EL
+      versions:
+        - 7.x

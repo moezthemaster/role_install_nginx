@@ -1,0 +1,4 @@
+---
+- name: {{ state }} NGiNX
+  include: ./{{ state }}.yml
+  when: state is defined
