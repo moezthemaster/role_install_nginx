@@ -1,4 +1,4 @@
 ---
-- name: {{ state }} NGiNX
-  include: ./{{ state }}.yml
+- name: "{{ state }} NGiNX"
+  include: "{{ state }}.yml"
   when: state is defined
